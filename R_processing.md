@@ -53,9 +53,9 @@ p_shotgun_shannon = plot_richness(phy_shotgun_rarefy_8mil, x = "NAFLD", color = 
 p_shotgun_shannon = p_shotgun_shannon + geom_boxplot(data = p_shotgun_shannon$data, show.legend = F) + stat_boxplot() + theme_bw() + scale_color_manual(labels = c("NAFLD Negative", "NAFLD Positive"), values = c("#56B4E9", "#D55E00")) + theme(legend.position = "none", axis.title.x = element_blank(), strip.background = element_blank(), strip.text.x = element_blank(), text = element_text(size = 16)) + labs(y = "Shannon Diversity Index") + scale_x_discrete(labels = c("NAFLD-negative", "NAFLD-positive")) #stat_compare_means(label.x = 1.25)
 p_shotgun_shannon
 ```
-![unnamed-chunk-3-1](https://user-images.githubusercontent.com/47392213/137373006-bd593a6f-bfa6-4042-896d-07c1d90c962a.png)
 
-![](github_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+![](https://github.com/todd-testerman/NAFLD-Shotgun-Metagenomes/blob/58ad1765b2b77b78377466925c9b4ffd58b581e9/unnamed-chunk-3-1.png)<!-- -->
 
 Figure 1 (Bray-Curtis Species only)
 
