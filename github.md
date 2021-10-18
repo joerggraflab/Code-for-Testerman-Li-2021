@@ -131,9 +131,9 @@ bray_species_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-14 18:42:36 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:30:42 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-14 18:42:36 - Finished PERMANOVA
+    ## 2021-10-18 10:30:42 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_species_perm) %>% as.data.frame()
@@ -3998,7 +3998,7 @@ bray_genus_supfig1 = phy_shotgun_rarefy_8mil %>%
     ##      2: scale factor of the gradient < sfgrmin
 
 ``` r
-bray_genus_supfig1 = bray_genus_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.130, p = 0.002*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.040*", size = 4) + scale_y_continuous(breaks = c(-0.4, -0.2, 0, 0.2, 0.4))
+bray_genus_supfig1 = bray_genus_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.130, p = 0.001*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.040*", size = 4) + scale_y_continuous(breaks = c(-0.4, -0.2, 0, 0.2, 0.4))
 bray_genus_supfig1 
 ```
 
@@ -4020,9 +4020,9 @@ bray_genus_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-14 18:45:26 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:33:55 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-14 18:45:26 - Finished PERMANOVA
+    ## 2021-10-18 10:33:55 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_genus_perm) %>% as.data.frame()
@@ -4131,7 +4131,7 @@ bray_family_supfig1 = phy_shotgun_rarefy_8mil %>%
     ## *** Solution reached
 
 ``` r
-bray_family_supfig1 = bray_family_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.155, p = 0.002*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.138", size = 4)
+bray_family_supfig1 = bray_family_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.155, p = 0.001*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.138", size = 4)
 bray_family_supfig1 
 ```
 
@@ -4153,9 +4153,9 @@ bray_family_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-14 18:45:27 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:33:56 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-14 18:45:27 - Finished PERMANOVA
+    ## 2021-10-18 10:33:56 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_family_perm) %>% as.data.frame()
@@ -4261,7 +4261,7 @@ bray_order_supfig1 = phy_shotgun_rarefy_8mil %>%
     ## *** Solution reached
 
 ``` r
-bray_order_supfig1 = bray_order_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.212, p = 0.002*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.807", size = 4)
+bray_order_supfig1 = bray_order_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.212, p = 0.001*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.807", size = 4)
 bray_order_supfig1 
 ```
 
@@ -4283,9 +4283,8 @@ bray_order_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-14 18:45:29 - Starting PERMANOVA with 999 perms with 1 processes
-
-    ## 2021-10-14 18:45:29 - Finished PERMANOVA
+    ## 2021-10-18 10:33:56 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:33:56 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_order_perm) %>% as.data.frame()
@@ -4398,7 +4397,7 @@ bray_class_supfig1 = phy_shotgun_rarefy_8mil %>%
     ## *** Solution reached
 
 ``` r
-bray_class_supfig1 = bray_class_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.212, p = 0.002*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.824", size = 4)
+bray_class_supfig1 = bray_class_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.5, label = "PERMANOVA: R2 = 0.212, p = 0.001*", size = 4) + annotate("text", x = 0, y = 0.45, label = "BETADISP: p = 0.824", size = 4)
 bray_class_supfig1 
 ```
 
@@ -4420,9 +4419,9 @@ bray_class_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-14 18:45:30 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:33:57 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-14 18:45:30 - Finished PERMANOVA
+    ## 2021-10-18 10:33:57 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_class_perm) %>% as.data.frame()
@@ -4541,7 +4540,7 @@ bray_phylum_supfig1 = phy_shotgun_rarefy_8mil %>%
     ## *** Solution reached
 
 ``` r
-bray_phylum_supfig1 = bray_phylum_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.45, label = "PERMANOVA: R2 = 0.266, p = 0.002*", size = 4) + annotate("text", x = 0, y = 0.40, label = "BETADISP: p = 0.136", size = 4) + scale_y_continuous(breaks = c(-0.4, -0.2, 0, 0.2, 0.4))
+bray_phylum_supfig1 = bray_phylum_supfig1 + scale_color_manual(labels = c("NAFLD-negative", "NAFLD-positive"), values = c("#56B4E9", "#D55E00")) + labs(color = "NAFLD Status") + theme(text = element_text(size = 16)) + annotate("text", x = 0, y = 0.45, label = "PERMANOVA: R2 = 0.266, p = 0.001*", size = 4) + annotate("text", x = 0, y = 0.40, label = "BETADISP: p = 0.136", size = 4) + scale_y_continuous(breaks = c(-0.4, -0.2, 0, 0.2, 0.4))
 bray_phylum_supfig1 
 ```
 
@@ -4563,9 +4562,9 @@ bray_phylum_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-14 18:45:32 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:33:58 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-14 18:45:32 - Finished PERMANOVA
+    ## 2021-10-18 10:33:58 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_phylum_perm) %>% as.data.frame()
@@ -5022,7 +5021,7 @@ session_info()
     ##  collate  English_United States.1252  
     ##  ctype    English_United States.1252  
     ##  tz       America/New_York            
-    ##  date     2021-10-14                  
+    ##  date     2021-10-18                  
     ## 
     ## - Packages -------------------------------------------------------------------
     ##  ! package              * version  date       lib
