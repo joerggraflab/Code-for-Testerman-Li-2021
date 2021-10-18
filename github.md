@@ -131,9 +131,9 @@ bray_species_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-18 10:30:42 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:46:06 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-18 10:30:42 - Finished PERMANOVA
+    ## 2021-10-18 10:46:06 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_species_perm) %>% as.data.frame()
@@ -4020,9 +4020,9 @@ bray_genus_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-18 10:33:55 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:48:57 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-18 10:33:55 - Finished PERMANOVA
+    ## 2021-10-18 10:48:57 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_genus_perm) %>% as.data.frame()
@@ -4153,9 +4153,9 @@ bray_family_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-18 10:33:56 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:48:58 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-18 10:33:56 - Finished PERMANOVA
+    ## 2021-10-18 10:48:58 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_family_perm) %>% as.data.frame()
@@ -4283,8 +4283,9 @@ bray_order_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-18 10:33:56 - Starting PERMANOVA with 999 perms with 1 processes
-    ## 2021-10-18 10:33:56 - Finished PERMANOVA
+    ## 2021-10-18 10:48:58 - Starting PERMANOVA with 999 perms with 1 processes
+
+    ## 2021-10-18 10:48:59 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_order_perm) %>% as.data.frame()
@@ -4419,9 +4420,8 @@ bray_class_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-18 10:33:57 - Starting PERMANOVA with 999 perms with 1 processes
-
-    ## 2021-10-18 10:33:57 - Finished PERMANOVA
+    ## 2021-10-18 10:48:59 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:48:59 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_class_perm) %>% as.data.frame()
@@ -4562,9 +4562,9 @@ bray_phylum_perm <- dist_permanova(
 )
 ```
 
-    ## 2021-10-18 10:33:58 - Starting PERMANOVA with 999 perms with 1 processes
+    ## 2021-10-18 10:49:00 - Starting PERMANOVA with 999 perms with 1 processes
 
-    ## 2021-10-18 10:33:58 - Finished PERMANOVA
+    ## 2021-10-18 10:49:00 - Finished PERMANOVA
 
 ``` r
 perm_get(bray_phylum_perm) %>% as.data.frame()
